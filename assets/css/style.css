@@ -1,0 +1,128 @@
+
+/* memberikan margin dan padding 0 pada semua element di index.php */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* efek pada id nav */
+#nav { /* sticky = elemen nav selalu diatas elemen lain */
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+}
+
+/* background gradien pada class navbar */
+
+.navbar {
+    background-image: linear-gradient(to right, #ec1e4b, #fb2c48);
+}
+
+/*font bold putih pada text navbar-brand-span*/
+.navbar-brand span {
+    font-weight: bolder;
+    color: #fff;
+}
+
+/*setting posisi elemen top & bottom 0px, R & L 10px*/
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+/*setting elemen di navbar jadi warna putih cetak tebal dan hurf kapital*/
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*memberikan efek pada id banner*/
+
+#banner {
+    position: relative;
+    background-image: linear-gradient(to right, #ec1e4b, #fb2c48);
+    color: #fff;
+    padding-top: 5%;
+}
+
+/*setting elemen class title*/
+
+/* .title {
+    font-weight: bolder;
+    margin-top: 80px;
+} */
+#banner .col-md-6 h4.title {
+    font-weight: bolder;
+    margin-top: 80px;
+    padding-left: 20px;
+}
+
+#banner .col-md-6 p {
+    margin-left: 0; /* Menghapus margin jika ada */
+    padding-left: 20px; /* Tambahkan jarak dari tepi kiri */
+} 
+
+/*setting elemen class ban-img*/
+.ban-img {
+    position: relative;
+    z-index: 1000;
+}
+
+.wave {
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+}
+
+#progkal {
+    padding: 80px 0;
+}
+
+.progkal {
+    padding: 20px;
+}
+
+.progkal img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.progkal h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+/* give effect in id vission and mission */
+#visimisi{
+    padding: 80px 0;
+    background: #fff7f5;
+}
+
+#visimisi h4{
+    margin-top: 15%;
+}
+
+#visimisi ol li{
+    margin-top: 10px;
+}
+
+/* efek id dan class contact */
+#contact{
+    padding: 80px 0;
+}
+.contact{
+    margin-top: 5%;
+}
+.contact .btn{
+    border-radius: 10px;
+}
+
+/* efek pada footer */
+#footer {
+    padding: 5px 0;
+    background-image: linear-gradient(to right, #ec1e4b, #fb2c48);
+    color: #fff;
+}
